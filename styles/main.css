@@ -1,1 +1,14 @@
-<!-- In this file you are going to write the CSS code -->
+/* In this file you are going to write the CSS code  */
+.nav_bar{
+    background:transparent;
+    background-color: rgba(228,228,228,0.7);
+    margin-top: 0;
+}
+
+ul#nav_list{
+    list-style: none;
+    float: right;
+}
+ul#nav_list li{
+    display: inline;
+}
