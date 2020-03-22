@@ -11,7 +11,7 @@
     background: url("../img/billboard.jpg");
     background-size: 100%;
     background-repeat:no-repeat;
-    height:768px;
+    height:900px;
     width:100%;
 }
 
@@ -41,7 +41,7 @@ ul#nav_list li{
     display: inline;
     font-weight: 500;
     font-size: 16px;
-    padding: 0px 20px;;
+    padding: 0px 20px;
 }
 
 .logo{
@@ -58,8 +58,114 @@ ul#nav_list li{
    color: #0088a9;
 }
 
-.background2{
-    background-color: rgb(248,248,248);
-    height: 60px;
+#background1{
+    background-color: rgba(248,248,248,0.5);
+    height: 80px;
     width: 100%;
+    margin-top: -80px;
 }
+
+#background1 .cta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: super;
+}
+
+#background1 a{
+    text-decoration: none;
+}
+
+ #background1 .cta #cta_text{
+    margin-top: 22px;
+    margin-left: 25px;
+}  
+
+#background1 .cta #cta_link{
+    background-color: rgb(82,202,255);
+    margin-top: 20px;
+    color: white;
+    padding: 15px;
+    margin-right: 30px;
+} 
+
+.services_back{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+}
+.services_text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+
+
+.services_items{
+    display: inline;
+}
+
+ul#services_list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 73%;
+    margin: 0px auto;
+}
+
+ul#services_list li{
+    display: inline;
+}
+
+#services_seprator{
+    text-align: center;
+}
+
+#services_seprator{
+    margin-top: 30px;
+}
+
+.services_items img{
+    margin-top: 30px;
+}
+
+.services_items_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services_items_content div{
+    width: 70%;
+    margin-top: 30px;
+}
+.sevices_wrapper{
+    margin-bottom: 50px;
+}
+.sevices_wrapper span{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 30px;
+}
+
+.recent_work{
+
+}
+
+ul#img_list{
+    display: flex;
+    list-style: none;
+}
+
+ul#img_list li{
+   display: inline;
+}
+
+ul#img_list li img:hover{
+    border: 4px solid white;
+ }
