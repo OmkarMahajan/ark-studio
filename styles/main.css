@@ -230,11 +230,11 @@ ul#img_list img{
     margin-top: 30px;
 }
 
-footer#footer_element{
+footer#footer_widget{
     background-color: rgb(53,53,53);
 }
 
-footer#footer_element .footer_widget{
+footer#footer_widget .footer_element{
     display: flex;
     margin: 0px auto;
     text-align: center;
